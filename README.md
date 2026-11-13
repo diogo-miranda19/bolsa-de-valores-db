@@ -13,10 +13,10 @@ This repository contains the relational database design and DDL scripts for a st
 ## Database Architecture & Schemas
 
 ### 1. Conceptual Model (Entity-Relationship)
-![Conceptual Model](./conceptual-model.png)
+![Conceptual Model](./bolsa-de-valores-db/conceptual-model.png)
 
 ### 2. Relational Model
-![Relational Model](./relational-model.png)
+![Relational Model](./bolsa-de-valores-db/relational-model.png)
 
 ## Repository Structure
 * `bolsa_de_valores.DDL` - SQL DDL script to generate tables, primary keys, and foreign key constraints.
