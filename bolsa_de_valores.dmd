@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bolsa_de_valores" id="07F03589-75E5-EE22-CADE-2BD9D3AC6716" version="3.5">
+<createdBy>diogo</createdBy>
+<createdTime>2025-03-16 23:00:09 UTC</createdTime>
+<ownerDesignName>bolsa_de_valores</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>07F03589-75E5-EE22-CADE-2BD9D3AC6716</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0B8DBCEC-0913-DD0A-F7A6-C3311C6B4FE0">
+<designStoragePath>C:\bolsa_valores</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E3898E46-1154-3F00-B25A-7F80B39BFDAB">
+<designStoragePath>C:\bolsa_valores</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="34CB0D42-2DDE-C57F-9837-0E5715B30C9D">
+<designStoragePath>C:\bolsa_valores</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="43434F2E-8CB7-568A-2F5F-72E9FBA6EFA9">
+<designStoragePath>C:\bolsa_valores</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="90F1AF1C-8D60-DAF2-C9C8-AAC131B20670">
+<designStoragePath>C:\bolsa_de_valores</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
