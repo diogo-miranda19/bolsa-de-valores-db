@@ -1,40 +1,47 @@
-# Stock Exchange Database (Bolsa de Valores)
+# Base de Dados - Bolsa de Valores (Stock Exchange Database)
 
-Academic relational database modeling project developed in a group of 3 for a Stock Exchange system, utilizing Oracle database.
+Projeto académico de modelação de bases de dados relacionais desenvolvido em grupo de 3 elementos para um sistema de Bolsa de Valores, utilizando **Oracle Database**.
 
-## Project Overview
-This repository contains the relational database design and DDL scripts for a stock market platform. The system models interactions between investors, stock portfolios, companies, commodities, financial markets, and brokerages, including order execution and price variations.
+---
+## Visão Geral do Projeto
+Este repositório contém o design da base de dados relacional e os scripts **DDL** para uma plataforma de mercado de ações. O sistema modela as interações entre investidores, carteiras de ações, empresas, *commodities*, mercados financeiros e corretoras, incluindo a execução de ordens e variações de preços.
 
-## Technologies & Tools
-* **Database Management System:** Oracle Database 21c
-* **Modeling Tool:** Oracle SQL Developer Data Modeler
-* **Language:** SQL (DDL)
+---
 
-## Database Architecture & Schemas
+## Tecnologias e Ferramentas
+- **Database Management System (DBMS):** Oracle Database 21c
+- **Ferramenta de Modelação:** Oracle SQL Developer Data Modeler
+- **Linguagem:** SQL (DDL)
 
-### 1. Conceptual Model (Entity-Relationship)
-![Conceptual Model](./conceptual-model.png)
+---
 
-### 2. Relational Model
-![Relational Model](./relational-model.png)
+## Arquitetura e Esquemas da Base de Dados
+1. **Modelo Conceptual**
+2. **Modelo Relacional**
 
-## Repository Structure
-* `bolsa_de_valores.DDL` - SQL DDL script to generate tables, primary keys, and foreign key constraints.
-* `conceptual-model.png` - Entity-Relationship diagram.
-* `relational-model.png` - Relational model diagram.
-* `bolsa_de_valores.dmd` - Oracle SQL Developer Data Modeler project file.
+---
 
-## Main Entities
-The database schema consists of 14 primary tables, including:
-* **`investidor`** (Investors) & **`carteira`** (Portfolios)
-* **`acao`** (Stocks) & **`empresa`** (Companies)
-* **`commodity`** (Commodities)
-* **`mercado`** (Markets) & **`corretora`** (Brokerages)
-* **`ordem`** (Orders) & **`negociacao`** (Trades)
+## Estrutura do Repositório
+- **`bolsa_de_valores.DDL`**: Script SQL DDL para gerar tabelas, *primary keys* e restrições de *foreign keys* (*constraints*).
+- **`conceptual-model.png`**: Diagrama *Entity-Relationship* (Modelo Conceptual).
+- **`relational-model.png`**: Diagrama do Modelo Relacional.
+- **`bolsa_de_valores.dmd`**: Ficheiro de projeto do Oracle SQL Developer Data Modeler.
 
-## Conclusions & Learnings
-Developed as part of our academic coursework in Databases, this project allowed us to bridge theoretical database concepts with practical system design. Through its execution, we gained hands-on experience in:
-* **Relational Modeling:** Translating real-world business rules and requirements into a structured Entity-Relationship model and a relational schema.
-* **Database Architecture:** Defining table relationships, primary/foreign keys, and referential integrity constraints (such as cascade deletions).
-* **Tooling:** Utilizing Oracle SQL Developer Data Modeler and generating automated SQL DDL scripts.
-* **Team Collaboration:** Working collaboratively in a group of 3 to plan, design, and structure a data layer from scratch.
+---
+
+## Entidades Principais
+O esquema da base de dados é composto por 14 tabelas principais, incluindo:
+- **`investidor`** & **`carteira`**
+- **`acao`** & **`empresa`**
+- **`commodity`**
+- **`mercado`** & **`corretora`**
+- **`ordem`** & **`negociacao`**
+
+---
+
+## Conclusões e Aprendizagens
+Desenvolvido no âmbito da unidade curricular de **Bases de Dados**, este projeto permitiu ligar os conceitos teóricos de bases de dados ao design prático de sistemas. Através da sua execução, adquirimos experiência prática em:
+- **Modelação Relacional:** Traduzir regras de negócio e requisitos reais num modelo *Entity-Relationship* estruturado e num esquema relacional.
+- **Arquitetura De Base de Dados:** Definir relações entre tabelas, *primary/foreign keys* e restrições de integridade referencial (*referential integrity constraints*, como *cascade deletions*).
+- **Ferramentas:** Utilizar o Oracle SQL Developer Data Modeler e gerar scripts SQL DDL automatizados.
+- **Trabalho em Equipa:** Trabalhar em equipa (grupo de 3) para planear, desenhar e estruturar uma camada de dados (*data layer*) de raiz.
