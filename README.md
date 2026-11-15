@@ -17,8 +17,9 @@ Este repositório contém o design da base de dados relacional e os scripts **DD
 
 ## Arquitetura e Esquemas da Base de Dados
 1. **Modelo Conceptual**
-2. **Modelo Relacional**
-
+   ![Conceptual Model](conceptual-model.png)
+3. **Modelo Relacional**
+   ![Relational Model](relational-model.png)
 ---
 
 ## Estrutura do Repositório
