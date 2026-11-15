@@ -1,4 +1,4 @@
-# Base de Dados - Bolsa de Valores (Stock Exchange Database)
+# Base de Dados - Bolsa de Valores
 
 Projeto académico desenvolvido no âmbito da unidade curricular de Base de Dados (BD) em grupos de 3 da Licenciatura em Engenharia Informática no UPB (Universidade Politécnica de Bragança). Este consiste na modelação de bases de dados relacionais para um sistema de uma Bolsa de Valores, utilizando **Oracle Database**.
 
